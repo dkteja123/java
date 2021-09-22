@@ -1,0 +1,14 @@
+class Myclass
+{
+  public static void main(String [] args)
+    {
+      Testit t=new Testit();
+    }
+}
+class Testit
+{
+    Testit()
+      {
+        System.out.println("its no args/default");
+      }
+}

@@ -1,0 +1,23 @@
+class SubClass
+{
+ String msg="hello";
+ String myname;
+ void disp(String name)
+ {
+  myname=name;
+  System.out.println(msg+name);
+ }
+}
+class MainClass1
+{
+  public static void main(String [] args)
+   { 
+     SubClass sc1=new SubClass();
+     SubClass sc2=new SubClass();
+     SubClass sc3=new SubClass();
+     sc1.disp("sahi");
+     sc2.disp("saru");
+     sc3.disp("sunny");
+     System.out.println(sc1.myname+","+sc2.myname+","+sc3.myname);
+   }
+}

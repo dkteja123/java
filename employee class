@@ -1,0 +1,26 @@
+class Employee{  
+   int id;
+   String name;  
+   int salary;
+   void setId(int no){
+      id = no;
+     }
+   void setName(String n){  
+       name = n;
+     }
+   void setSalary(int s){  
+       salary = s;
+      }
+   void getEmployeeDetails(){  
+       System.out.println(name + " salary is "+ salary);
+      }
+}
+class EmployeeDemo {
+   public static void main(String[] args) { 
+    Employee emp1 = new Employee();  
+    emp1.setId(80167);
+    emp1.setName("sahi");  
+    emp1.setSalary(20000);  
+    emp1.getEmployeeDetails();
+}
+}

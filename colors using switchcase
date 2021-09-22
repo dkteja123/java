@@ -1,0 +1,33 @@
+public class Color
+{
+	public static void main(String[] args) {
+		 char color=args[0].charAt(0);
+		switch(color){
+		    case 'R':System.out.println("Red");
+		           break;
+		    case 'B':System.out.println("Blue");
+		           break;
+		    case 'G':System.out.println("Green");
+		           break;
+		    case 'O':System.out.println("Orange");
+		           break;
+		    case 'Y':System.out.println("Yellow");
+		           break;
+		    case 'W':System.out.println("White");
+		           break;
+		    case 'r':System.out.println("Red");
+		           break;
+		    case 'b':System.out.println("Blue");
+		           break;
+		    case 'g':System.out.println("Green");
+		           break;
+		    case 'o':System.out.println("Orange");
+		           break;
+		    case 'y':System.out.println("Yellow");
+		           break;
+		    case 'w':System.out.println("White");
+		           break;
+		    default:System.out.println("Invalid Input");
+		}
+	}
+}

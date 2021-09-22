@@ -1,0 +1,43 @@
+class Operations
+{
+ int add(int a, int b)
+ {
+   int sum=a+b;
+   return sum;
+ }
+ int subtraction(int a,int b)
+ {
+   int sub=a-b;
+   return sub;
+ }
+ int multiply(int a,int b)
+ {
+   int mul=a*b;
+   return mul;
+ }
+ int division(int a,int b)
+ {
+   int div=a/b;
+   return div;
+ }
+  int mdivision(int a,int b)
+ {
+   int mdiv=a%b;
+   return mdiv;
+ }
+}
+class Calculator
+{
+  public static void main(String [] args)
+  {
+   Operations op=new Operations();
+   System.out.println(" "+op.add(10,5));
+   System.out.println(" "+op.subtraction(15,10));
+   System.out.println(" "+op.multiply(10,5));
+   System.out.println(" "+op.division(12,3));
+   System.out.println(" "+op.mdivision(10,3));
+  }
+}
+ 
+ 
+ 

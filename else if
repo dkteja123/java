@@ -1,0 +1,25 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    char gender;
+	    int age;
+	    gender=args[0].charAt(0);
+	    age=Integer.parseInt(args[1]);
+	    
+	    if ((gender =='F')&&(age>=1 && age<=58)){
+	    System.out.println("intrest==8.2%");
+	    }
+	    else if((gender=='F')&&(age>=59 && age<=120)){
+	    System.out.println("intrest==7.6%");
+	    }
+	    else if((gender=='M') && (age >= 1 && age <= 60)) {
+        System.out.println("Interest==9.2%");
+	    }
+        else if((gender=='M')&&(age>=61 && age <= 120)){
+	    System.out.println("intrest==8.3%");
+	    }
+	}
+
+	
+}
+
